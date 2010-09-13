@@ -111,8 +111,8 @@ body {
 }
 
 #bokningsform {
-	width: 310px;
-	font-size: 20px;
+	width: 308px;
+	font-size: 17px;
 	font-family: verdana, arial, sans-serif;
 	margin-right: 5px;
 	margin-left: 5px;
@@ -130,19 +130,46 @@ body {
 	font-size: 16px;
 }
 
-#bokningsform input {
-	font-size: 18px;
+#bokningsform input, #bokningsform textarea {
+	font-size: 16px;
 	font-family: verdana, arial, sans-serif;
+	width: 290px;
 }
 
 #bokningsform textarea {
-	font-size: 16px;
-	font-family: verdana, arial, sans-serif;
+	width: 300px;
+}
+
+#bokningsform .dates input {
+	font-size: 14px;
+	width: 90px;
+}
+
+#bokningsform .radiobuttons input {
+	width: auto;
+}
+
+#bokningsform #savebutton, #bokningsform #cancelbutton {
+	width: auto;
+}
+
+#bokningsform .closebutton {
+	display: block;
+	position:absolute;
+	right: 2px;
+	top: 2px;
+	z-index: 100;
 }
 
 p {
 	margin-bottom: 4px;
 	margin-top: 0;
+}
+
+.dates p {
+	display: block;
+	float:left;
+	width: 100px;
 }
 
 .overlay {

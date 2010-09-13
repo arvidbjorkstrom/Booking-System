@@ -37,7 +37,7 @@ Telefon: {{phone}}
 Alternativ tel: {{phone_alt}}
 Epost: {{epost}}
 
-Om du vill avboka Storängssalen måste du göra det senast 14 dagar innan bokningsdatumet för att undvika straffavgifter. Svara på det här mailet eller ring på 08 - 4400 7997.
+Om du vill avboka Storängssalen måste du göra det senast 14 dagar innan bokningsdatumet för att undvika straffavgifter. Svara på det här mailet eller ring på 08 - 4100 7997.
 ",
 		'txt_reminder_subj' => 'Din bokning av Storängssalen, ',
 		'txt_reminder_message' => "Hej {{namn}}!
