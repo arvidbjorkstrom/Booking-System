@@ -197,7 +197,7 @@ class Bokningsfunk {
 			$this->email($this->conf['default_from'],$data['epost'],$subject,$message,$data);
 		}
 	}
-	
+		
 	public function create_bookingform() {
 		$output[] = '<form action="'.$_SERVER['PHP_SELF'].'" method="POST" name="bokning" id="bokning" onsubmit="save_booking(); return false;">';
 		$output[] = '<input type="hidden" name="bokningsid" value="-1" />';

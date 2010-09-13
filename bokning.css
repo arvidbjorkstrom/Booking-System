@@ -112,7 +112,7 @@ body {
 
 #bokningsform {
 	width: 308px;
-	font-size: 17px;
+	font-size: 18px;
 	font-family: verdana, arial, sans-serif;
 	margin-right: 5px;
 	margin-left: 5px;
@@ -143,6 +143,10 @@ body {
 #bokningsform .dates input {
 	font-size: 14px;
 	width: 90px;
+}
+
+#bokningsform .dates #datum_show, #bokningsform .dates #bokad_show, #bokningsform .dates #payed_show {
+	font-size: 15px;
 }
 
 #bokningsform .radiobuttons input {
@@ -176,8 +180,8 @@ p {
 	position: absolute;
 	left: 0px; top: 0px;
 	width: 100%; height: 100%;
-	background-color: #FFFFFF; /* dark gray */
-	opacity: .7; filter: alpha(opacity=70); /* opacity: partly transparent */
+	background-color: #FFFFFF;
+	opacity: .7; filter: alpha(opacity=70);
 	z-index: 1000;
 }
 .dialogue {
@@ -189,11 +193,6 @@ p {
 	top: 100px;
 	
 	width: 100px;
-/*
-	padding: 20px;
-	
-	border: 1px solid #999999;
-*/
 	background-color: #FFFFFF;
 	
 	z-index: 2000;
