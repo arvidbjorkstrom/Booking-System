@@ -1,0 +1,209 @@
+body {
+	background-color: #fff;
+	margin: 0px;
+}
+
+#info, .info {
+	margin-left: 5px;
+	width: 308px;
+}
+
+#kalender {
+	text-shadow: 1px 1px 1px white;
+	color: #434343;
+	width: 320px;
+	font-size: 18px;
+	font-family: verdana, arial, sans-serif;
+	margin: 0px;
+}
+
+#kalender table {
+	background-color: #dae0e6;
+	border-color: #b4b4b4;
+	border-width: 1px;
+	border-style: solid;
+}
+
+#kalender td {
+	padding: 0px;
+	margin: 0px;
+	height: 41px;
+	width: 41px;
+	text-align: center;
+	border-right-color: #bbc7d4;
+	border-bottom-color: #bbc7d4;
+	border-top-color: white;
+	border-left-color: white;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-bottom-width: 1px;
+	border-top-width: 1px;
+}
+
+#kalender a {
+	text-decoration: none;
+	color: #434343;
+}
+
+#kalender th {
+	padding-top: 4px;
+	padding-bottom: 6px;
+}
+
+#kalender th a {
+	text-decoration: none;
+	color: #434343;
+}
+
+.small {
+	width: 320px;
+	text-align: center;
+	margin-top: 5px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.small a {
+	text-decoration: none;
+}
+
+.small img {
+	margin: 2px;
+}
+
+#kalender .week {
+	width: 17px;
+	padding-left: 4px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	text-align: left;
+	margin: 0px;
+	border-width: 0px;
+	font-size: 10px;
+}
+
+#kalender .days td {
+	height: 15px;
+	padding: 0px;
+	text-align: center;
+	margin: 0px;
+	border-style: none;
+	border-width: 0px;
+	font-size: 8px;
+	font-weight: bold;
+}
+
+.hide {
+	display: none;
+}
+
+.show	{
+	display: block;
+}
+
+.today {
+	font-weight: bold;
+}
+
+#bokningsform {
+	width: 310px;
+	font-size: 20px;
+	font-family: verdana, arial, sans-serif;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+#bokningsform .small {
+	font-size: 10px;
+}
+
+#bokningsform .small a {
+	font-size: 10px;
+}
+
+#bokningsform .radiobuttons {
+	font-size: 16px;
+}
+
+#bokningsform input {
+	font-size: 18px;
+	font-family: verdana, arial, sans-serif;
+}
+
+#bokningsform textarea {
+	font-size: 16px;
+	font-family: verdana, arial, sans-serif;
+}
+
+p {
+	margin-bottom: 4px;
+	margin-top: 0;
+}
+
+.overlay {
+	position: absolute;
+	left: 0px; top: 0px;
+	width: 100%; height: 100%;
+	background-color: #FFFFFF; /* dark gray */
+	opacity: .7; filter: alpha(opacity=70); /* opacity: partly transparent */
+	z-index: 1000;
+}
+.dialogue {
+	position: absolute;
+	
+	font-size: 17px;
+	left: 50%;
+	margin-left: -50px;
+	top: 100px;
+	
+	width: 100px;
+/*
+	padding: 20px;
+	
+	border: 1px solid #999999;
+*/
+	background-color: #FFFFFF;
+	
+	z-index: 2000;
+}
+
+.datum_prel {
+	text-shadow: 1px 1px 1px #A8A8CC;
+	background-color: #81a7cd;
+	background-repeat: repeat-x;
+	background-image: url(prelim.png);
+	text-decoration: none;
+	color: white;
+}
+
+.datum_bok {
+	text-shadow: 1px 1px 1px #78788c;
+	background-repeat: repeat-x;
+	background-color: #1a80e5;
+	background-image: url(bokad.png);
+	text-decoration: none;
+	color: white;
+}
+
+#fram {
+	margin-right: 10px;
+	float: right;
+}
+
+#bak {
+	margin-left: 30px;
+	float: left;
+}
+
+.datum_prel td,.datum_bok td {
+	border: 1px solid #506994;
+}
+
+.monthlist textarea {
+	width:318px;
+}
