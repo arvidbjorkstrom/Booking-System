@@ -26,7 +26,7 @@ class Lang {
 		'lbl_add_visit' => 'Lägg till besök',
 		'lbl_week' => 'Vecka',
 		'txt_booking_details' => "
-Hyran av salen är beräknad till {{rent}}, och erläggs minst tre veckor i förskott genom insättning på AB Storängens Samskolas plusgirokonto 50 97 44-9.
+Hyran av salen är beräknad till {{rent}}, och erläggs minst tre veckor i förskott genom insättning på AB Storängens Samskolas bankgirokonto 661-5686.
 
 Bokningsdatum: {{datum}}
 Bokningstyp: {{bookingtype}}
@@ -44,7 +44,7 @@ Om du vill avboka Storängssalen måste du göra det senast 14 dagar innan bokni
 
 Det här är en påminnelse om din bokning av Storängssalen {{datum}}.
 {{addin}}",
-		'txt_reminder_prel' => "Din bokning är än så länge preliminär, för att bekräfta eller säga upp den kontakta oss på info@storangssalen.se.
+		'txt_reminder_prel' => "Din bokning är än så länge preliminär, bekräfta den så snart du har möjlighet genom att kontakta oss på info@storangssalen.se.
 ",
 		'txt_reminder_prel_21' => "Din bokning är fortfarande markerad som preliminär. Om du inte bekräftar din bokning inom en vecka blir den tillgänglig för andra som vill boka lokalen.
 ",
