@@ -193,6 +193,11 @@ p {
 	top: 100px;
 	
 	width: 100px;
+/*
+	padding: 20px;
+	
+	border: 1px solid #999999;
+*/
 	background-color: #FFFFFF;
 	
 	z-index: 2000;
